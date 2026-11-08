@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "solstice",
+  "version": "${version}",
+  "name": "Solstice Client Mod",
+  "description": "Solstice Client in-game modules: HUD, zoom, freelook and more.",
+  "authors": ["Solstice"],
+  "license": "GPL-3.0-only",
+  "environment": "client",
+  "entrypoints": { "client": ["com.solstice.client.SolsticeMod"] },
+  "mixins": ["solstice.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.1", "java": ">=21", "fabric-api": "*" }
+}
